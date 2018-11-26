@@ -3,7 +3,7 @@ project(TrafficLightEmulator_pj)
 
 set(CMAKE_CXX_STANDARD 98)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lphthread")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lpthread")
 
 add_subdirectory(Logger)
 add_subdirectory(TrafficLight)
