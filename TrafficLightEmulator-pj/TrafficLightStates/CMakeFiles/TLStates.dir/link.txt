@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libTLStates.a  CMakeFiles/TLStates.dir/src/AbstractState.cpp.o CMakeFiles/TLStates.dir/src/StateGreenLight.cpp.o CMakeFiles/TLStates.dir/src/StatePause.cpp.o CMakeFiles/TLStates.dir/src/StateRedLight.cpp.o CMakeFiles/TLStates.dir/src/StateYellowLight.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libTLStates.a
