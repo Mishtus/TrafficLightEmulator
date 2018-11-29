@@ -2,10 +2,15 @@
 #define TRAFFICLIGHTEMULATOR_LOGGER_HPP
 
 class Logger {
- public:
+public:
     static Logger& getInstance();
 
-    void writeToLog(int stateInfo);
+    void writeToLog (int stateInfo);
+
+private:
+	Logger () {}
+	Logger (const Logger&) {}
+	Logger& operator=(const Logger&) {}
 };
 
 #endif
